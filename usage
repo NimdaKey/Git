@@ -1,5 +1,5 @@
 第一步： 生成ssh key，使用命令 “ssh-keygen -t rsa -C "your_email@youremail.com"”，your_email是你的email		
-====		 
+		 
 ubuntu@ubuntu:~$ ssh-keygen -t rsa -C your_email@youremail.com
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa): 
