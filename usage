@@ -24,10 +24,14 @@ The key's randomart image is:
 |                 |
 +-----------------+
 ubuntu@ubuntu:~$ cat /home/ubuntu/.ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbQLaYMQLaUsJkrfTfq6H+RxTcOOfRxKSPVDEniP4sU3E7wJe62IYUGFlJFl97ouqLLk5QIEan6jttkzvY5WfHbaXpP2W7A53ioqRx4unYH3mZK8ftzFc2wnA8j0k03U+bLQnvdAp1hlnAVha5Vz+dUDBvUnfLmNI4W511eDbPLKKrtnshSQMsJHIrq7qJ4KcU+17OOtUd52sOC/RoYvn9Y/epsn3ncVJn5TRxKD/n5WY884G/MoXWvxD3uQq4CuqOZRgi67E4hpbVoQ3XkPMW9m3YEXlHYsAYiopHN5U38OUniUGwWWhVpZxeZgsbI4e5qRGa4Yij0k1U4l5e+v0B your_email@youremail.com
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbQLaYMQLaUsJkrfTfq6H+RxTcOOfRxKSPVDEniP4sU3E7wJe62IYUGFlJFl97ouqLLk5QI
+Ean6jttkzvY5WfHbaXpP2W7A53ioqRx4unYH3mZK8ftzFc2wnA8j0k03U+bLQnvdAp1hlnAVha5Vz+dUDBvUnfLmNI4W511eDbPLKKrtnshSQ
+MsJHIrq7qJ4KcU+17OOtUd52sOC/RoYvn9Y/epsn3ncVJn5TRxKD/n5WY884G/MoXWvxD3uQq4CuqOZRgi67E4hpbVoQ3XkPMW9m3YEXlHYsA
+YiopHN5U38OUniUGwWWhVpZxeZgsbI4e5qRGa4Yij0k1U4l5e+v0B your_email@youremail.com
 
 第二步： 登陆github，进入Account Settings，左边选择SSH Keys，Add SSH Key,title随便填，粘贴public key。
-第三步： 测试ssh key是否成功，使用命令“ssh -T git@github.com”，如果出现You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。
+第三步： 测试ssh key是否成功，使用命令“ssh -T git@github.com”，如果出现You’ve successfully authenticated,
+	but GitHub does not provide shell access 。这就表示已成功连上github。
 
 第四步： 上传项目(假设存在项目vbox)
 
