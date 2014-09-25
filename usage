@@ -28,3 +28,13 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbQLaYMQLaUsJkrfTfq6H+RxTcOOfRxKSPVDEniP4s
 
 第二步： 登陆github，进入Account Settings，左边选择SSH Keys，Add SSH Key,title随便填，粘贴public key。
 第三步： 测试ssh key是否成功，使用命令“ssh -T git@github.com”，如果出现You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。
+
+第四步： 上传项目(假设存在项目vbox)
+
+ubuntu@ubuntu:~/Documents$ git clone https://github.com/YOURNAME/vbox.git
+ubuntu@ubuntu:~/Documents$ cd vbox
+# 此时对vbox作修改之后上传更新
+ubuntu@ubuntu:~/Documents/vbox$ git push origin
+Username for 'https://github.com': YOURNAME
+Password for 'https://YOURNAME@github.com': 
+Everything up-to-date
