@@ -39,9 +39,8 @@ ubuntu@ubuntu:~/Documents$ git clone https://github.com/YOURNAME/vbox.git
 ubuntu@ubuntu:~/Documents$ cd vbox
 # 此时对vbox作修改
 # 有目录或文件创建时，需要用git commit
-ubuntu@ubuntu:~/Documents/vbox$ git commit
-# 去掉文件中的"#"
 ubuntu@ubuntu:~/Documents/vbox$ git commit -a
+# 去掉文件中的"#"
 ubuntu@ubuntu:~/Documents/vbox$ git push origin
 Username for 'https://github.com': YOURNAME
 Password for 'https://YOURNAME@github.com': 
